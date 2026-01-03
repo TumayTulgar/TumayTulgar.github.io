@@ -1,44 +1,33 @@
 # The Site Configuration
-# Tramesonet - v1.6 (Block Style Fix)
+# Tramesonet - v1.7 (Emergency Boot)
 
-# Import the theme
 theme: jekyll-theme-chirpy
-
-# Language & Timezone
 lang: tr-TR
 timezone: Europe/Istanbul
 
-# SEO Settings
+# En basit, hatasız tanımlar
 title: Tramesonet
-tagline: Kaosu Dinlemek
+tagline: Tramesonet
+description: Tramesonet
 
-# DİKKAT: >- işareti "Aşağıdaki metne karışma" demektir.
-description: >-
-  Atmosferin Sesi: Şiddetli Bir Hava Tahmini Manifestosu
-
-# URL Settings
 url: 'https://tumaytulgar.github.io'
 
-# Social & Author Settings
 github:
   username: TumayTulgar
 
 social:
-  name: Tümay Tulgar
+  name: Tumay Tulgar
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
 
-# Build Settings
 paginate: 10
 baseurl: ""
 
-# Theme Features
 toc: true
 pwa:
   enabled: true
 
-# Technical Settings (Do not change below)
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -73,15 +62,6 @@ defaults:
 
 sass:
   style: compressed
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
 
 exclude:
   - "*.gem"
