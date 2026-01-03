@@ -1,14 +1,14 @@
 # The Site Configuration
-# Tramesonet - v1.7 (Emergency Boot)
+# Tramesonet - v1.8 (Archives Restored)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
 timezone: Europe/Istanbul
 
-# En basit, hatasız tanımlar
+# Site Kimliği
 title: Tramesonet
-tagline: Tramesonet
-description: Tramesonet
+tagline: Kaosu Dinlemek
+description: Atmosferin Sesi
 
 url: 'https://tumaytulgar.github.io'
 
@@ -72,3 +72,13 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
+
+# --- EKSİK OLAN PARÇA GERİ EKLENDİ ---
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
