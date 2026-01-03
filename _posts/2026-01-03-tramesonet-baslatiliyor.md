@@ -1,4 +1,3 @@
-
 ---
 title: Tramesonet Başlatılıyor
 date: 2026-01-03 21:55:00 +0300
@@ -7,7 +6,6 @@ tags: [tramesonet, giriş]
 ---
 
 ## Sistem Çevrimiçi
-
 Tramesonet projesinin ilk veri akışı başarıyla sağlandı.
 Şu an **StackEdit** üzerinden yazılan bu metin, **GitHub Actions** motoru tarafından işlenip yayına alındı.
 
@@ -18,5 +16,5 @@ Tramesonet projesinin ilk veri akışı başarıyla sağlandı.
 
 Veri akışı başlıyor...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDE1NzEzXX0=
+eyJoaXN0b3J5IjpbLTEzMTc0NTYyMjNdfQ==
 -->
