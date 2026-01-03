@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v1.2 (Fixed Quotes)
+# Tramesonet - v1.3 (Final Fix)
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -9,7 +9,7 @@ lang: tr-TR
 timezone: Europe/Istanbul
 
 # SEO Settings
-# DÜZELTME: Metinler tırnak içine alındı.
+# DİKKAT: Aşağıdaki satırlarda tırnak işaretleri (') eklendi.
 title: 'Tramesonet'
 tagline: 'Kaosu Dinlemek'
 description: 'Atmosferin Sesi: Şiddetli Bir Hava Tahmini Manifestosu'
