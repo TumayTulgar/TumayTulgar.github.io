@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v1.8 (Archives Restored)
+# Tramesonet - v1.9 (Plugins Restored)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
@@ -21,13 +21,26 @@ social:
   links:
     - https://github.com/TumayTulgar
 
+# Build Settings
 paginate: 10
 baseurl: ""
 
+# --- İŞTE EKSİK OLAN KRİTİK LİSTE BURASI ---
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Tema Özellikleri
 toc: true
 pwa:
   enabled: true
 
+# Teknik Ayarlar
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -73,7 +86,7 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-# --- EKSİK OLAN PARÇA GERİ EKLENDİ ---
+# Arşiv Motoru Ayarları
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
