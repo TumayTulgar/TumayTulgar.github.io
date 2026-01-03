@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v1.4 (Syntax Fixed)
+# Tramesonet - v1.5 (Colon Removed)
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -9,10 +9,10 @@ lang: tr-TR
 timezone: Europe/Istanbul
 
 # SEO Settings
-# KRİTİK DÜZELTME: Metinler tırnak (') içine alındı.
-title: 'Tramesonet'
-tagline: 'Kaosu Dinlemek'
-description: 'Atmosferin Sesi: Şiddetli Bir Hava Tahmini Manifestosu'
+# DÜZELTME: İki nokta işareti tire ile değiştirildi.
+title: Tramesonet
+tagline: Kaosu Dinlemek
+description: 'Atmosferin Sesi - Şiddetli Bir Hava Tahmini Manifestosu'
 
 # URL Settings
 url: 'https://tumaytulgar.github.io'
