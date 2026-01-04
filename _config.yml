@@ -1,133 +1,52 @@
 # The Site Configuration
-# Tramesonet - v4.0 (Based on Original Backup)
+# Tramesonet - v5.0 (Plugins Optimized)
 
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage
+# Dil ve Zaman
 lang: tr-TR
-
-# Change to your timezone
 timezone: Europe/Istanbul
 
-# jekyll-seo-tag settings
-# ↓ --------------------------
-
+# --- KİMLİK AYARLARI ---
 title: Tramesonet
-
 tagline: Kaosu Dinlemek
-
 description: 'Atmosferin Sesi - Şiddetli Bir Hava Tahmini Manifestosu'
 
-# Fill in the protocol & hostname for your site.
+# --- ADRES VE YAZAR ---
 url: 'https://tumaytulgar.github.io'
 
 github:
   username: TumayTulgar
 
-twitter:
-  username:
-
 social:
-  # Change to your full name.
-  name: Tümay Tulgar
+  name: Tümay Tulgar    # İsim doğrusu: Ü harfi ile
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
 
-# Site Verification Settings
-webmaster_verifications:
-  google:
-  bing:
-  alexa:
-  yandex:
-  baidu:
-  facebook:
-
-# ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
-
-# Web Analytics Settings
-analytics:
-  google:
-    id:
-  goatcounter:
-    id:
-  umami:
-    id:
-    domain:
-  matomo:
-    id:
-    domain:
-  cloudflare:
-    id:
-  fathom:
-    id:
-
-# Page views settings
-pageviews:
-  provider:
-
-# Prefer color scheme setting.
-theme_mode:
-
-# The CDN endpoint for media resources.
-cdn:
-
-# the avatar on sidebar, support local or CORS resources
-avatar:
-
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-social_preview_image:
-
-# boolean type, the global switch for TOC in posts.
-toc: true
-
-comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider:
-  disqus:
-    shortname:
-  utterances:
-    repo:
-    issue_term:
-  giscus:
-    repo:
-    repo_id:
-    category:
-    category_id:
-    mapping:
-    strict:
-    input_position:
-    lang:
-    reactions_enabled:
-
-# Self-hosted static assets
-assets:
-  self_host:
-    enabled:
-    env:
-
-pwa:
-  enabled: true
-  cache:
-    enabled: true
-    deny_paths:
-
+# --- SİSTEM AYARLARI ---
 paginate: 10
-
-# The base URL of your site
 baseurl: ""
 
-# ------------ The following options are not recommended to be modified ------------------
+# --- KRİTİK EKLENTİ LİSTESİ ---
+# Hata veren 'redirect-from' çıkarıldı.
+# 'archives' eklendi -> Artık etiket sayfaları oluşacak ve Test geçecek.
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-feed
+
+# --- DİĞER AYARLAR ---
+toc: true
+pwa:
+  enabled: true
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: highlight
-    span:
-      line_numbers: false
     block:
       line_numbers: true
       start_line: 1
@@ -160,15 +79,6 @@ defaults:
 sass:
   style: compressed
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -180,6 +90,7 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+# --- ARŞİV MOTORU AYARLARI ---
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
