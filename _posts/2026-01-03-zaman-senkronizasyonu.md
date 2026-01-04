@@ -50,6 +50,60 @@ Aşağıdaki grafikte sıcaklık değişiminin (üst panel) osilatör kararlıl�
 Bu zaman kayması standart projelerde sorun yaratmayabilir ancak benim bilmekten haz duyduğum bir şey var: "Şu an" A noktasındaki atmosferik veriler bu şekildeyken, daha uzaktaki B noktasında tam olarak nasıl?
 
 Bu yüzden tüm istasyonlarda GPS sensörü bulundurup, günde bir kez uyandırarak RTC saatini kalibre etmesi için programlamamız gerekli.
+
+---
+
+## English Version
+
+### Tramesonet: Tuning Time Before Listening to the Sound of Chaos
+
+I am testing the principle of synchronized operation, which is a highly critical issue for the Tramesonet station network.
+
+It is vital for all sensors to communicate simultaneously to record the rapid movement of severe convectional precipitation or a frontal passage over Thrace.
+
+Therefore, before listening to the "sound of chaos," I must tune my own instrument.
+
+### Experimental Setup: Chasing Time
+
+I set up a controlled experimental environment to observe how synchronous the stations could remain. I conducted tests in both an indoor environment (at approximately 22°C room temperature) and a colder outdoor environment using ESP32, DS3231 RTC, and GPS (GY-NEO6MV2) modules.
+
+### Why Conduct This Test?
+
+Tracking absolute time is actually a tremendously difficult task. Initially, we can synchronize all our station clocks. However, after a while, we realize that they have all drifted differently from one another. So, to what extent do these drifts create a problem?
+
+Electronic components track time using a quartz crystal corresponding to a natural resonance vibration of 1 Hz (1 second). However, quartz crystals are sensitive to temperature. For this reason, I completed the experiment over a period of approximately 7 hours in both closed (approx. 22°C) and open air (approx. 17°C) environments, using atomic time data as a reference.
+
+**Note:** We access atomic time data thanks to the precise time information transmitted at the speed of light by orbiting satellites to our GPS sensor.
+
+### Data Collection
+
+The flow of the experiment was as follows:
+1.  **Reference:** Time information arrives at the GPS sensor and is held in the microcontroller (ESP32).
+2.  **Comparison 1:** The RTC module reports its own time to the ESP32.
+3.  **Comparison 2:** The ESP32 keeps its own electronic millisecond-level time counter in a variable.
+
+### Analysis and Results
+
+In the graph below, we can clearly see the effect of temperature change (top panel) on oscillator stability (bottom panel). Note specifically how the deviation in the ESP32's internal time counter (purple line) changes when the temperature drops from 24°C levels to 16°C levels.
+
+![Effect of Temperature on Time Drift](https://tumaytulgar.github.io/assets/Figure_1.png)
+
+| Duration | ESP32 (Millis) Drift | RTC (DS3231) Drift |
+| :--- | :--- | :--- |
+| **1 Hour** | -0.17 seconds (170 ms) | -0.012 seconds (12 ms) |
+| **1 Day** | -4.14 seconds | -0.30 seconds (300 ms) |
+| **1 Week** | -29 seconds | -2.07 seconds |
+| **1 Month** | -2 minutes | -9 seconds |
+| **1 Year** | -25 minutes | -1.8 minutes |
+
+### Solution: Wake Up and Correct
+
+This time drift might not cause serious problems in standard projects. However, there is something I take pleasure in knowing: While atmospheric data at point A is like this "right now," how is it exactly at the more distant point B?
+
+To be sure of this accuracy, I want to be very cautious about the time counter in the station installations.
+
+Therefore, we need to equip all stations with a GPS sensor and program them to wake up once a day to calibrate the RTC.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTMzMjIwOSwxNjQyMTA0MDExXX0=
+eyJoaXN0b3J5IjpbLTc4NTk2MzYxOSwtOTA5MzMyMjA5LDE2ND
+IxMDQwMTFdfQ==
 -->
