@@ -2,9 +2,10 @@ theme: jekyll-theme-chirpy
 lang: tr-TR
 timezone: Europe/Istanbul
 
+# --- KİMLİK ---
 title: Tramesonet
 tagline: Kaosu Dinlemek
-description: 'Atmosferin Sesi'
+description: 'Atmosferin Sesi - Şiddetli Bir Hava Tahmini Manifestosu'
 url: 'https://tumaytulgar.github.io'
 
 github:
@@ -16,10 +17,17 @@ social:
   links:
     - https://github.com/TumayTulgar
 
+# --- SİSTEM ---
 paginate: 10
 baseurl: ""
 
-# Eklentiler ve Arşivler KAPALI (Hata riski yok)
+# --- EKLENTİLER (Motorları Açıyoruz) ---
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives  # <-- İşte bu arkadaşı geri çağırdık!
+  - jekyll-sitemap
+  - jekyll-feed
 
 toc: true
 pwa:
@@ -69,3 +77,13 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
+
+# --- ETİKET VE KATEGORİ AYARLARI ---
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
