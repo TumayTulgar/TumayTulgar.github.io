@@ -1,17 +1,19 @@
 # The Site Configuration
-# Tramesonet - v1.9 (Plugins Restored)
+# Tramesonet - v2.1 (Full Working Version)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
 timezone: Europe/Istanbul
 
-# Site Kimliği
+# --- KİMLİK AYARLARI ---
 title: Tramesonet
 tagline: Kaosu Dinlemek
 description: Atmosferin Sesi
 
+# --- ADRES AYARI ---
 url: 'https://tumaytulgar.github.io'
 
+# --- SOSYAL MEDYA ---
 github:
   username: TumayTulgar
 
@@ -21,11 +23,12 @@ social:
   links:
     - https://github.com/TumayTulgar
 
-# Build Settings
+# --- SİSTEM AYARLARI ---
 paginate: 10
 baseurl: ""
 
-# --- İŞTE EKSİK OLAN KRİTİK LİSTE BURASI ---
+# --- EKSİK OLAN PARÇA (BURASI ÇOK ÖNEMLİ) ---
+# Bu liste olmadan etiket sayfaları çalışmaz ve hata verir.
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
@@ -35,12 +38,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Tema Özellikleri
+# --- TEMA ÖZELLİKLERİ ---
 toc: true
 pwa:
   enabled: true
 
-# Teknik Ayarlar
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -86,7 +88,7 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-# Arşiv Motoru Ayarları
+# --- ARŞİV MOTORU ---
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
