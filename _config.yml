@@ -1,10 +1,7 @@
 # The Site Configuration
-# Tramesonet - v5.0 (Plugins Optimized)
+# Tramesonet - v6.0 (Build Approved & Tag Ready)
 
-# Import the theme
 theme: jekyll-theme-chirpy
-
-# Dil ve Zaman
 lang: tr-TR
 timezone: Europe/Istanbul
 
@@ -20,7 +17,7 @@ github:
   username: TumayTulgar
 
 social:
-  name: Tümay Tulgar    # İsim doğrusu: Ü harfi ile
+  name: Tümay Tulgar
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
@@ -29,9 +26,8 @@ social:
 paginate: 10
 baseurl: ""
 
-# --- KRİTİK EKLENTİ LİSTESİ ---
-# Hata veren 'redirect-from' çıkarıldı.
-# 'archives' eklendi -> Artık etiket sayfaları oluşacak ve Test geçecek.
+# --- EKLENTİLER (BUILD ONAYLI LİSTE) ---
+# Bu liste sayesinde Build geçiyor ve Etiket sayfaları oluşuyor.
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
@@ -39,7 +35,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# --- DİĞER AYARLAR ---
+# --- TEMA AYARLARI ---
 toc: true
 pwa:
   enabled: true
@@ -90,7 +86,7 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-# --- ARŞİV MOTORU AYARLARI ---
+# --- ARŞİV MOTORU ---
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
