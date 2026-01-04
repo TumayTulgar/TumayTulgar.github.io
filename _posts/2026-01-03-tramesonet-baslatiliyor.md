@@ -2,7 +2,7 @@
 title: Tramesonet Başlatılıyor
 date: 2026-01-03 21:55:00 +0300
 categories: [Blogging, Demo]
-tags: [tramesonet, giriş]
+tags: [tramesonet, giris]
 ---
 
 ## Sistem Çevrimiçi
@@ -16,5 +16,6 @@ Tramesonet projesinin ilk veri akışı başarıyla sağlandı.
 
 Veri akışı başlıyor...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc0NTYyMjNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzIyODU3NzEsLTEzMTc0NTYyMjNdfQ
+==
 -->
