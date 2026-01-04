@@ -1,8 +1,5 @@
 ---
-title: Tramesonet Başlatılıyor
-date: 2026-01-03 21:55:00 +0300
-categories: [Blogging, Demo]
-tags: [tramesonet, giris]
+--- title: Zaman Senkronizasyonu - GPS ve RTC Testi date: 2026-01-03 22:30:00 +0300 categories: [Tramesonet, Ar-Ge]
 ---
 
 ## Sistem Çevrimiçi
@@ -16,6 +13,6 @@ Tramesonet projesinin ilk veri akışı başarıyla sağlandı.
 
 Veri akışı başlıyor...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIyODU3NzEsLTEzMTc0NTYyMjNdfQ
-==
+eyJoaXN0b3J5IjpbLTYyNjgxMjY5OSwtMTU3MjI4NTc3MSwtMT
+MxNzQ1NjIyM119
 -->
