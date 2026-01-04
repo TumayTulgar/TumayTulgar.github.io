@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v2.1 (Full Working Version)
+# Tramesonet - v2.2 (Name Correction)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
@@ -15,10 +15,10 @@ url: 'https://tumaytulgar.github.io'
 
 # --- SOSYAL MEDYA ---
 github:
-  username: TumayTulgar
+  username: TumayTulgar  # Burası İngilizce kalmalı (Link için)
 
 social:
-  name: Tümay Tulgar
+  name: Tümay Tulgar     # BURAYI DÜZELTTİK: Sitede görünecek isim (Ü harfi ile)
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
@@ -27,8 +27,7 @@ social:
 paginate: 10
 baseurl: ""
 
-# --- EKSİK OLAN PARÇA (BURASI ÇOK ÖNEMLİ) ---
-# Bu liste olmadan etiket sayfaları çalışmaz ve hata verir.
+# --- EKLENTİLER ---
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
