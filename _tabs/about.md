@@ -9,7 +9,7 @@ order: 1
 
 ## Kaosun İçinde Bir Anlam
 
-Beni tanımlayan unsurlar ve bu projedeki motivasyonum nedir? Aslında cevap çok basit ama bir o kadar da derin: Doğanın kaotik yapısı içerisindeki o küçük kesitlerde bir anlam görmek ve buna duyduğum merak...
+Beni tanımlayan unsurlar ve bu projedeki motivasyonum nedir? Doğanın kaotik yapısı içerisindeki o küçük kesitlerde bir anlam görmek ve buna duyduğum merak...
 
 Doğayı dinledikten sonra ona bir "cevap" vermek, işte o kesitlerdeki anlamı yakalamakla ilgili. Kendime sık sık "Neden atmosfer?" diye soruyorum. Sanırım bunun sebebi; sonsuz sayıdaki mikro ölçekli kaotik yapının koca bir fenomene dönüşmesini, bir kümülonimbus bulutunda baştan sona izleyebilmenin mümkün olması.
 
@@ -21,7 +21,7 @@ Benim için bu proje bir veri toplama merkezinden öte, doğanın konuşma dili 
 
 ---
 
-## 🇬🇧 English Version
+## English Version
 
 ### Meaning Within Chaos
 
@@ -35,5 +35,5 @@ This is what **Tramesonet** represents: an endeavor to reconstruct in the digita
 
 For me, this project is more than just a data collection hub; it is a state of "hearing" that magnificent phenomenon by using mathematics—the native language of nature. Every meaningful segment I can perceive is a way of reaching the whole.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDg5ODIxOCwxNDE4OTY3MTIwXX0=
+eyJoaXN0b3J5IjpbNjMxODAxMTY3LDE0MTg5NjcxMjBdfQ==
 -->
