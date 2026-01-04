@@ -1,5 +1,5 @@
----
---- title: Zaman Senkronizasyonu - GPS ve RTC Testi date: 2026-01-03 22:30:00 +0300 categories: [Tramesonet, Ar-Ge]
+--- 
+title: Zaman Senkronizasyonu - GPS ve RTC Testi date: 2026-01-03 22:30:00 +0300 categories: [Tramesonet, Ar-Ge]
 ---
 
 ## Sistem Çevrimiçi
@@ -13,6 +13,6 @@ Tramesonet projesinin ilk veri akışı başarıyla sağlandı.
 
 Veri akışı başlıyor...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjgxMjY5OSwtMTU3MjI4NTc3MSwtMT
+eyJoaXN0b3J5IjpbMTMxODIwOTk0MCwtMTU3MjI4NTc3MSwtMT
 MxNzQ1NjIyM119
 -->
