@@ -21,13 +21,14 @@ social:
 paginate: 10
 baseurl: ""
 
-# --- EKLENTİLER (Motorları Açıyoruz) ---
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-archives  # <-- İşte bu arkadaşı geri çağırdık!
-  - jekyll-sitemap
-  - jekyll-feed
+# --- EKLENTİLERİ KAPATTIK (Hata Kaynağı Burasıydı) ---
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-seo-tag
+#   - jekyll-archives
+#   - jekyll-sitemap
+#   - jekyll-feed
+# (Bu bölümü bilerek yorum satırı yaptık/sildik)
 
 toc: true
 pwa:
@@ -77,13 +78,3 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
-
-# --- ETİKET VE KATEGORİ AYARLARI ---
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
