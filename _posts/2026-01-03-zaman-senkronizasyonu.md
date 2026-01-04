@@ -3,7 +3,6 @@ layout: post
 title: "Log 001: Kaosun Sesini Dinlemeden Önce Zamanı Akort Etmek"
 date: 2026-01-03 11:30:00 +0300
 categories: [Tramesonet, Logbook]
-tags: [esp32, rtc, gps, meteoroloji, iot]
 keywords: [esp32 zaman senkronizasyonu, ds3231 rtc kayması, arduino meteoroloji istasyonu yapımı, gps atomik saat, tramesonet, lora haberleşme]
 description: "Tramesonet meteoroloji ağı için ESP32, GPS ve RTC modüllerinin zaman senkronizasyon testleri. Gerçek devre kurulumu ve atomik saat hassasiyet analizi."
 image: /assets/TIME.png
@@ -52,5 +51,5 @@ Bu zaman kayması standart projelerde sorun yaratmayabilir ancak benim bilmekten
 
 Bu yüzden tüm istasyonlarda GPS sensörü bulundurup, günde bir kez uyandırarak RTC saatini kalibre etmesi için programlamamız gerekli.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjEwNDAxMV19
+eyJoaXN0b3J5IjpbLTkwOTMzMjIwOSwxNjQyMTA0MDExXX0=
 -->
