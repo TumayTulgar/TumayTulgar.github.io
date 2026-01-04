@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v2.3 (Safe & Stable Mode)
+# Tramesonet - v3.0 (Back to Basics & Name Fix)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
@@ -18,7 +18,7 @@ github:
   username: TumayTulgar
 
 social:
-  name: Tümay Tulgar
+  name: Tümay Tulgar     # İSMİN DÜZELTİLDİ (Ü harfi ile)
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
@@ -26,9 +26,6 @@ social:
 # --- SİSTEM AYARLARI ---
 paginate: 10
 baseurl: ""
-
-# --- EKLENTİLER LİSTESİ KALDIRILDI (HATA KAYNAĞI) ---
-# Temanın kendi varsayılanları devreye girecek.
 
 # --- TEMA ÖZELLİKLERİ ---
 toc: true
@@ -79,6 +76,3 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
-
-# --- ARŞİV MOTORU DEVRE DIŞI BIRAKILDI ---
-# Hata vermemesi için şimdilik kapalı kalacak.
