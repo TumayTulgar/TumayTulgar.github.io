@@ -21,8 +21,14 @@ social:
 paginate: 10
 baseurl: ""
 
-# --- EKLENTİLERİ SİLDİK (Hata buradaydı) ---
-# plugins kısmı bilerek boş bırakıldı.
+# --- EKLENTİLER (GÜVENLİ MOD) ---
+# Sadece temanın çalışması için şart olanları açtık.
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-feed      <-- Hata veren bu arkadaşı kapalı tuttuk
+  # - jekyll-archives  <-- Bunu da şimdilik uyuttuk
 
 toc: true
 pwa:
