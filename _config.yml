@@ -21,14 +21,8 @@ social:
 paginate: 10
 baseurl: ""
 
-# --- EKLENTİLERİ KAPATTIK (Hata Kaynağı Burasıydı) ---
-# plugins:
-#   - jekyll-paginate
-#   - jekyll-seo-tag
-#   - jekyll-archives
-#   - jekyll-sitemap
-#   - jekyll-feed
-# (Bu bölümü bilerek yorum satırı yaptık/sildik)
+# --- EKLENTİLERİ SİLDİK (Hata buradaydı) ---
+# plugins kısmı bilerek boş bırakıldı.
 
 toc: true
 pwa:
