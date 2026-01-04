@@ -1,5 +1,5 @@
 # The Site Configuration
-# Tramesonet - v3.0 (Back to Basics & Name Fix)
+# Tramesonet - v3.1 (Archive Settings Restored)
 
 theme: jekyll-theme-chirpy
 lang: tr-TR
@@ -18,7 +18,7 @@ github:
   username: TumayTulgar
 
 social:
-  name: Tümay Tulgar     # İSMİN DÜZELTİLDİ (Ü harfi ile)
+  name: Tümay Tulgar
   email: tumaytulgar@gmail.com
   links:
     - https://github.com/TumayTulgar
@@ -76,3 +76,14 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
+
+# --- ARŞİV MOTORU AYARLARI (GERİ EKLENDİ) ---
+# Bu kısım olmadan etiket sayfaları oluşmaz ve "Test" aşaması başarısız olur.
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
