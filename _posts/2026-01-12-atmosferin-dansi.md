@@ -51,7 +51,7 @@ In this article, I attempt to understand how pressure fluctuated both temporally
 
 The simulation below is a snapshot of atmospheric movements at a specific hour. You can navigate freely within the model and examine pressure fluctuations from different angles:
 
-<iframe src="/basinc_modeli.html" width="100%" height="600px" style="border: none; border-radius: 8px;" title="3D Atmospheric Pressure Model"> </iframe>
+<iframe src="/assets/basinc_modeli.html" width="100%" height="600px" style="border:none;"> </iframe>
 
 For this visualization, I utilized the **850 hPa** level and **geopotential height**. While the 850 hPa value should ideally correspond to an altitude of 1500 meters, this value fluctuates due to density differences. I obtained the data via the **Open-Meteo API** from grid points spaced approximately 11 km apart, processing it with the **Cubic Interpolation** method to achieve a seamless texture.
 
