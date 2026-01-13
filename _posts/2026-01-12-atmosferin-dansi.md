@@ -2,7 +2,7 @@
 title: "Log #002: Atmosferin Dansı"
 description: "Bir fırtınanın, sayılardan önce bir yapısı olduğunu gösteren kısa bir basınç gözlemi."
 pubDate: "13.01.2026"
-heroImage: "/assets/basinc-kapak.png"
+image: /assets/basinc-kapak
 ---
 
 
