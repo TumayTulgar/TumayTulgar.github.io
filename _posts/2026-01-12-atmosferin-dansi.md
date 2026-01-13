@@ -18,7 +18,7 @@ Bu yazıda; **Marmara Bölgesi** üzerinde son günlerde yaşanan lodos fırtın
 
 Aşağıdaki simülasyon, belirli bir zaman dilimine ait atmosferik hareketlerin anlık görüntüsüdür. Model içerisinde serbestçe gezinebilir ve farklı açılardan basınç dalgalanmalarını inceleyebilirsiniz:
 
-<iframe src="/assets/basinc-modeli.html" width="100%" height="600px" style="border:none;"> </iframe>
+<iframe src="/assets/basinc_modeli.html" width="100%" height="600px" style="border:none;"> </iframe>
 
 Bu çalışmada görselleştirme için **850 hPa** seviyesini ve **jeopotansiyel yüksekliği** kullandım. Atmosferde yükseklik arttıkça basınç belirli bir oranda düşer. Ölçümlerde 850 hPa değerinin yaklaşık 1500 metre rakıma sahip olması gerekirken, yoğunluk ve sıcaklık farkları nedeniyle bu değer değişir. Verileri **Open-Meteo API** üzerinden yaklaşık 11 km'lik grid noktalarından alarak, kesintisiz bir doku elde etmek için **Cubic Interpolation (Kübik İnterpolasyon)** yöntemiyle işledim.
 
@@ -51,7 +51,7 @@ In this article, I attempt to understand how pressure fluctuated both temporally
 
 The simulation below is a snapshot of atmospheric movements at a specific hour. You can navigate freely within the model and examine pressure fluctuations from different angles:
 
-<iframe src="/basinc-modeli.html" width="100%" height="600px" style="border: none; border-radius: 8px;" title="3D Atmospheric Pressure Model"> </iframe>
+<iframe src="/basinc_modeli.html" width="100%" height="600px" style="border: none; border-radius: 8px;" title="3D Atmospheric Pressure Model"> </iframe>
 
 For this visualization, I utilized the **850 hPa** level and **geopotential height**. While the 850 hPa value should ideally correspond to an altitude of 1500 meters, this value fluctuates due to density differences. I obtained the data via the **Open-Meteo API** from grid points spaced approximately 11 km apart, processing it with the **Cubic Interpolation** method to achieve a seamless texture.
 
