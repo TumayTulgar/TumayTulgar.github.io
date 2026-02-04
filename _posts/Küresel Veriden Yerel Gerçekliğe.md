@@ -1,5 +1,5 @@
 ---
-title: "Log #004: Küresel Veriden Yerel Gerçekliğe" 
+title: "Log #003: Küresel Veriden Yerel Gerçekliğe" 
 description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci." 
 pubDate: "04.02.2026"
 ---
