@@ -1,7 +1,11 @@
 ---
+layout: post 
 title: "Log #004: Küresel Veriden Yerel Gerçekliğe" 
-description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci." 
-pubDate: "04.02.2026"
+date: 2026-02-04 21:00:00 +0300 
+categories: [Tramesonet, DigitalTwin] 
+keywords: [ecmwf downscaling, dijital ikiz, digital twin, yerel meteoroloji, 30m dem, opentopography, atmosferik çözünürlük, lapse rate] 
+description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci. Digital Twin teknolojisi ile atmosferik yerelleştirme." 
+image: /assets/assetsanalysis_cover.png
 ---
 
 Küresel Veriden Yerel Gerçekliğe: Atmosferik Çözünürlüğü Dijital İkiz ile 30 Metreye İndirgemek
