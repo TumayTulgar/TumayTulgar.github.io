@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Log #004: Küresel Veriden Yerel Gerçekliğe" 
+title: "Log #003: Küresel Veriden Yerel Gerçekliğe" 
 date: 2026-02-04 21:00:00 +0300 
 categories: [Tramesonet, DigitalTwin] 
 keywords: [ecmwf downscaling, dijital ikiz, digital twin, yerel meteoroloji, 30m dem, opentopography, atmosferik çözünürlük, lapse rate] 
