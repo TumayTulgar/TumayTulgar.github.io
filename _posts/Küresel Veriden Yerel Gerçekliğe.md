@@ -98,21 +98,3 @@ The rule "it gets colder as you go higher" does not always apply; during winter 
 Conclusion and Open Data Vision
 
 This study serves as proof of how open-source data and curiosity can personalize supercomputer outputs. We are grateful to OpenTopography and ECMWF for providing these resources to enthusiasts. We hope that institutions like the Turkish State Meteorological Service (MGM) will also open their data to amateur researchers, contributing significantly to the growth of this ecosystem.
-
-<div id="giscus-container"></div>
-
-<script src="https://www.google.com/search?q=https://giscus.app/client.js"
-data-repo="TumayTulgar/TumayTulgar.github.io"
-data-repo-id="R_kgDONn5R-Q"
-data-category="Announcements"
-data-category-id="DIC_kwDONn5R-c4Cl6W6"
-data-mapping="pathname"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="top"
-data-theme="preferred_color_scheme"
-data-lang="tr"
-crossorigin="anonymous"
-async>
-</script>
