@@ -1,8 +1,10 @@
 ---
 title: "Log #004: Küresel Veriden Yerel Gerçekliğe" 
 description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci." 
-pubDate: "04.02.2026" image: /assets/analysis_cover.png
+pubDate: "04.02.2026"
 ---
+
+Küresel Veriden Yerel Gerçekliğe: Atmosferik Çözünürlüğü Dijital İkiz ile 30 Metreye İndirgemek
 
 Dijital İkiz (Digital Twin) kavramı, atmosfer bilimlerinde heyecan verici kapılar açıyor. Bu çalışmadaki temel motivasyon; atmosferin o karmaşık ve kaotik yapısını bilgisayar ortamında gerçeğe en yakın şekilde modelleyebilmek. Pencereden dışarı baktığımızda gördüğümüz hava olaylarının ötesinde, bu sistemlerin yerel ölçekteki (vadi, tepe, sahil şeridi) etkilerini görebilmek ancak veriyi "yerelleştirmekle" mümkün oluyor.
 
@@ -14,17 +16,15 @@ ECMWF, "Open Data" kapsamında değerli veriler sunsa da halka açık bu veriler
 
 Bu boşluğu doldurmak için iki veri setini birleştirdik:
 
-Atmosferik Veri: ECMWF GRIB2 formatındaki ham veriler.
-
-Arazi Verisi: OpenTopography üzerinden alınan 30 metre çözünürlüklü DEM (Dijital Yükseklik Modeli).
+Atmosferik Veri:  ECMWF GRIB2 formatındaki ham veriler.
+Arazi Verisi:  OpenTopography üzerinden alınan 30 metre çözünürlüklü DEM (Dijital Yükseklik Modeli).
 
 Yöntem: 900 Kat Daha Hassas Bir Bakış
 
 27.000 metreden 30 metreye inmek, lineer çözünürlükte 900 katlık bir hassasiyet artışı anlamına geliyor. Süreç şu iki ana adımda ilerliyor:
 
-Bilinear Interpolation (Veri Yumuşatma): 4 köşe mantığıyla gelen veriyi, 30 metrelik noktalara ağırlıklandırarak dağıttık ve pürüzsüz bir "atmosfer örtüsü" elde ettik.
-
-Lapse Rate (Fiziksel Düzeltme): ECMWF'den gelen jeopotansiyel verisi ile gerçek yüksekliği karşılaştırdık. Aradaki farkı atmosferin o anki soğuma katsayısı ile çarparak sıcaklığı topoğrafyaya göre düzelttik.
+Bilinear Interpolation (Veri Yumuşatma):  4 köşe mantığıyla gelen veriyi, 30 metrelik noktalara ağırlıklandırarak dağıttık ve pürüzsüz bir "atmosfer örtüsü" elde ettik.
+Lapse Rate (Fiziksel Düzeltme):  ECMWF'den gelen jeopotansiyel verisi ile gerçek yüksekliği karşılaştırdık. Aradaki farkı atmosferin o anki soğuma katsayısı ile çarparak sıcaklığı topoğrafyaya göre düzelttik.
 
 İnteraktif Deneyim: Trakya Bölgesi Analizi
 
@@ -39,9 +39,6 @@ style="border: none;"
 title="3D Yerel Sıcaklık Analizi">
 </iframe>
 </div>
-<p style="text-align: center; color: #888; font-size: 0.9rem; margin-top: -10px;">
-<em>İnteraktif Analiz: Mouse ile döndürebilir, vadi ve tepelerdeki 30m hassasiyetindeki sıcaklık değişimlerini görebilirsiniz.</em>
-</p>
 
 İstisnalar: İnversiyonu Yakalamak
 
@@ -65,17 +62,15 @@ While ECMWF provides invaluable data under its "Open Data" initiative, these pub
 
 To bridge this gap, we combined two datasets:
 
-Atmospheric Data: Raw ECMWF data in GRIB2 format.
-
-Terrain Data: 30-meter resolution DEM (Digital Elevation Model) from OpenTopography.
+Atmosferic Data:  Raw ECMWF data in GRIB2 format.
+Terrain Data:  30-meter resolution DEM (Digital Elevation Model) from OpenTopography.
 
 Methodology: A 900-Fold Increase in Precision
 
 Moving from 27,000 meters to 30 meters represents a 900-fold increase in linear resolution. The process follows two main steps:
 
-Bilinear Interpolation (Data Smoothing): We distributed the 4-corner grid data to each 30-meter point using distance-based weighting, creating a smooth "atmospheric blanket".
-
-Lapse Rate (Physical Correction): We compared the geopotential data from ECMWF with the actual elevation from the DEM. By multiplying the difference with the current lapse rate, we corrected the temperature according to the topography.
+Bilinear Interpolation (Data Smoothing):  We distributed the 4-corner grid data to each 30-meter point using distance-based weighting, creating a smooth "atmospheric blanket".
+Lapse Rate (Physical Correction):  We compared the geopotential data from ECMWF with the actual elevation from the DEM. By multiplying the difference with the current lapse rate, we corrected the temperature according to the topography.
 
 Interactive Experience: Thrace Region Analysis
 
