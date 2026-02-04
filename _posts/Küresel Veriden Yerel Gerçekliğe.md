@@ -1,4 +1,8 @@
-layout: post title: "Küresel Veriden Yerel Gerçekliğe: Atmosferik Çözünürlüğü Dijital İkiz ile 30 Metreye İndirgemek" date: 2026-02-04 21:00:00 +0300 categories: [Bilim, Meteoroloji] image: /assets/img/posts/analysis_cover.jpg description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci."
+---
+title: "Log #004: Küresel Veriden Yerel Gerçekliğe" 
+description: "Küresel modellerin 27 km'lik verilerini yerel topografya ile 30 metre çözünürlüğe indirgeme süreci." 
+pubDate: "04.02.2026" image: /assets/analysis_cover.png
+---
 
 Dijital İkiz (Digital Twin) kavramı, atmosfer bilimlerinde heyecan verici kapılar açıyor. Bu çalışmadaki temel motivasyon; atmosferin o karmaşık ve kaotik yapısını bilgisayar ortamında gerçeğe en yakın şekilde modelleyebilmek. Pencereden dışarı baktığımızda gördüğümüz hava olaylarının ötesinde, bu sistemlerin yerel ölçekteki (vadi, tepe, sahil şeridi) etkilerini görebilmek ancak veriyi "yerelleştirmekle" mümkün oluyor.
 
