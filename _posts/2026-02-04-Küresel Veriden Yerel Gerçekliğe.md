@@ -30,19 +30,11 @@ Yöntem: 900 Kat Daha Hassas Bir Bakış
 Bilinear Interpolation (Veri Yumuşatma):  4 köşe mantığıyla gelen veriyi, 30 metrelik noktalara ağırlıklandırarak dağıttık ve pürüzsüz bir "atmosfer örtüsü" elde ettik.
 Lapse Rate (Fiziksel Düzeltme):  ECMWF'den gelen jeopotansiyel verisi ile gerçek yüksekliği karşılaştırdık. Aradaki farkı atmosferin o anki soğuma katsayısı ile çarparak sıcaklığı topoğrafyaya göre düzelttik.
 
-İnteraktif Deneyim: Trakya Bölgesi Analizi
+#### Analiz Sonuçları: Trakya Bölgesi Örneği
 
-Teorik yaklaşımı pratiğe döktüğümüzde karşımıza çıkan sonucu aşağıda görebilirsiniz. Hazırladığım interaktif HTML harita üzerinden bölgedeki topoğrafik etkileri ve kıyı şeridi sıcaklık farklarını detaylıca inceleyebilirsiniz.
+Teorik yaklaşımı pratiğe döktüğümüzde karşımıza çıkan sonucu aşağıdaki görselde görebilirsiniz. [cite_start]27 km'lik kaba verinin, 30 metre çözünürlüğünde vadinin dibini de dağın zirvesini de tanıyan bir yapıya nasıl dönüştüğü, kıyı şeridi ve topoğrafya üzerindeki sıcaklık dağılımıyla net bir şekilde anlaşılıyor[cite: 28, 30].
 
-<div style="width: 100%; height: 600px; border: 1px solid #333; border-radius: 12px; overflow: hidden; margin: 2rem 0; background: #1a1a2e;">
-<iframe
-src="/assets/Analysis_Temperature.html"
-width="100%"
-height="100%"
-style="border: none;"
-title="3D Yerel Sıcaklık Analizi">
-</iframe>
-</div>
+![Trakya Sıcaklık Analizi](/assets/ECMWF.png)
 
 İstisnalar: İnversiyonu Yakalamak
 
@@ -76,19 +68,11 @@ Moving from 27,000 meters to 30 meters represents a 900-fold increase in linear 
 Bilinear Interpolation (Data Smoothing):  We distributed the 4-corner grid data to each 30-meter point using distance-based weighting, creating a smooth "atmospheric blanket".
 Lapse Rate (Physical Correction):  We compared the geopotential data from ECMWF with the actual elevation from the DEM. By multiplying the difference with the current lapse rate, we corrected the temperature according to the topography.
 
-Interactive Experience: Thrace Region Analysis
+#### Analysis Results: Thrace Region Example
 
-You can see the result of putting this theoretical approach into practice below. I have prepared an interactive HTML map where you can explore the topographic effects and coastal temperature gradients in detail.
+You can see the results of putting this theoretical approach into practice in the image below. [cite_start]It clearly demonstrates how the coarse 27 km data is transformed into a structure that recognizes both valley floors and mountain peaks at 30-meter resolution, showing the distinct temperature distribution along the coastline and topography[cite: 28, 30].
 
-<div style="width: 100%; height: 600px; border: 1px solid #333; border-radius: 12px; overflow: hidden; margin: 2rem 0; background: #1a1a2e;">
-<iframe
-src="/assets/Analysis_Temperature.html"
-width="100%"
-height="100%"
-style="border: none;"
-title="3D Local Temperature Analysis">
-</iframe>
-</div>
+![Thrace Temperature Analysis](/assets/ECMWF.png)
 
 Exceptions: Capturing Inversion
 
