@@ -32,7 +32,7 @@ Lapse Rate (Fiziksel Düzeltme):  ECMWF'den gelen jeopotansiyel verisi ile gerç
 
 #### Analiz Sonuçları: Trakya Bölgesi Örneği
 
-Teorik yaklaşımı pratiğe döktüğümüzde karşımıza çıkan sonucu aşağıdaki görselde görebilirsiniz. [cite_start]27 km'lik kaba verinin, 30 metre çözünürlüğünde vadinin dibini de dağın zirvesini de tanıyan bir yapıya nasıl dönüştüğü, kıyı şeridi ve topoğrafya üzerindeki sıcaklık dağılımıyla net bir şekilde anlaşılıyor[cite: 28, 30].
+Teorik yaklaşımı pratiğe döktüğümüzde karşımıza çıkan sonucu aşağıdaki görselde görebilirsiniz. 27 km'lik kaba verinin, 30 metre çözünürlüğünde vadinin dibini de dağın zirvesini de tanıyan bir yapıya nasıl dönüştüğü, kıyı şeridi ve topoğrafya üzerindeki sıcaklık dağılımıyla net bir şekilde anlaşılıyor.
 
 ![Trakya Sıcaklık Analizi](/assets/ECMWF.png)
 
@@ -70,7 +70,7 @@ Lapse Rate (Physical Correction):  We compared the geopotential data from ECMWF 
 
 #### Analysis Results: Thrace Region Example
 
-You can see the results of putting this theoretical approach into practice in the image below. [cite_start]It clearly demonstrates how the coarse 27 km data is transformed into a structure that recognizes both valley floors and mountain peaks at 30-meter resolution, showing the distinct temperature distribution along the coastline and topography[cite: 28, 30].
+You can see the results of putting this theoretical approach into practice in the image below. It clearly demonstrates how the coarse 27 km data is transformed into a structure that recognizes both valley floors and mountain peaks at 30-meter resolution, showing the distinct temperature distribution along the coastline and topography.
 
 ![Thrace Temperature Analysis](/assets/ECMWF.png)
 
