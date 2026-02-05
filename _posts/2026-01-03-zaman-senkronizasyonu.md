@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Log 001: Kaosun Sesini Dinlemeden Önce Zamanı Akort Etmek"
+title: "Log #001: Kaosun Sesini Dinlemeden Önce Zamanı Akort Etmek"
 date: 2026-01-03 11:30:00 +0300
 categories: [Tramesonet, Logbook]
 keywords: [esp32 zaman senkronizasyonu, ds3231 rtc kayması, arduino meteoroloji istasyonu yapımı, gps atomik saat, tramesonet, lora haberleşme]
