@@ -1,5 +1,5 @@
 ---
-layout: _posts 
+layout: posts 
 title: "Log #003: Küresel Veriden Yerel Gerçekliğe" 
 date: 2026-02-04 21:00:00 +0300 
 categories: [Tramesonet, DigitalTwin] 
